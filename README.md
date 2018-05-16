@@ -3,6 +3,8 @@
 
 这个是一个响应式组件，表现效果与Boostrap 3的栅格系统效果几乎一致。
 
+[Example](https://mengdu.github.io/m-grid/example/)
+
 npm
 ```ls
 npm install -S vue-m-grid
