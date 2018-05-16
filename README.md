@@ -1,7 +1,20 @@
 
-## MContainer
+## m-grid
 
-响应式布局容器，与Boostrap 3的栅格系统效果一致
+这个是一个响应式组件，表现效果与Boostrap 3的栅格系统效果几乎一致。
+
+npm
+```ls
+npm install -S vue-m-grid
+```
+
+use
+```js
+import MContainer from 'vue-m-grid'
+
+Vue.use(MContainer) // 注册 m-container, m-row, m-col组件
+```
+
 
 ```html
 <m-container fluid>
@@ -14,13 +27,15 @@
 
 ```
 
-样式来自：[100行less实现bootstrap的12栅格布局](https://segmentfault.com/a/1190000010104455)
-
 ### MContainer Attributes
 
-+ fluid 是否占用100%宽度，与Boostrap .container-fluid一致默认false。
+| 参数      | 说明    | 类型      | 可选值       | 默认值   |
+|---------- |-------- |---------- |-------------  |-------- |
+|  fluid  | 是否占用100%宽度 | Boolean |   —  |  false  |
+
 
 ### MCol Attributes
+
 | 参数      | 说明    | 类型      | 可选值       | 默认值   |
 |---------- |-------- |---------- |-------------  |-------- |
 |  xs  | 与Boostrap .col-xs 一致 |  Number,String  |   —  |  —  |

@@ -1,11 +1,16 @@
 import MContainer from './container'
 import MRow from './row'
-import Mcol from './col'
+import MCol from './col'
+import './container.less'
 
 MContainer.install = function (Vue) {
   Vue.component(MContainer.name, MContainer)
   Vue.component(MRow.name, MRow)
-  Vue.component(Mcol.name, Mcol)
+  Vue.component(MCol.name, MCol)
 }
 
-export default MContainer
+export {
+  MContainer as default,
+  MRow,
+  MCol
+}

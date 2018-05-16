@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <!-- <fork-link :repo="repo" /> -->
+    <fork-link :repo="repo" />
     <header>
-      <!-- <img src="./assets/logo.png"> -->
+      <img src="./assets/logo.png">
       <h1 style="font-weight: 100">m-grid 栅格布局</h1>
       <div style="margin-bottom: 50px;">
         <a :href="repo" target="_blank"><m-button type="info" size="large" round>Github</m-button></a>
@@ -13,11 +13,11 @@
     </header>
 
     <main class="doc-block">
-      <div style="max-width: 800px; margin: 0 auto">
+
+      <Doc style="margin-bottom: 100px"/>
+      <div style="max-width: 800px; margin: 0 auto;">
         <readme />
       </div>
-      
-      <Doc />
     </main>
     <layout-footer></layout-footer>
   </div>
