@@ -3,6 +3,7 @@ import './dist/css/default.css'
 
 export {
   MContainer as default,
+  MContainer,
   MRow,
   MCol
 }

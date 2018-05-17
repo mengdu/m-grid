@@ -11,6 +11,7 @@ MContainer.install = function (Vue) {
 
 export {
   MContainer as default,
+  MContainer,
   MRow,
   MCol
 }
