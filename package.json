@@ -4,7 +4,7 @@
   "description": "A grid layout component for vue.",
   "author": "lanyueos@qq.com",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mengdu/m-grid"
